@@ -1,5 +1,5 @@
-# DataRecording
-Records sensor data and notes into sqlite database for processing elsewhere
+# AndroidSensorRecorder
+App that records Android sensor data and notes into sqlite database for processing elsewhere
 
 ## Database Schema
 - Tables: notes, accelerometer, gyroscope
