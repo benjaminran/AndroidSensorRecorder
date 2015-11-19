@@ -1,4 +1,4 @@
-package com.bran.restroomdetection;
+package com.bran.androidsensorrecorder;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

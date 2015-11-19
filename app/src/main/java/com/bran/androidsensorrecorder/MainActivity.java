@@ -1,8 +1,7 @@
-package com.bran.restroomdetection;
+package com.bran.androidsensorrecorder;
 
 import android.app.Activity;
 import android.content.ComponentName;
-import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.Bundle;
@@ -60,6 +59,7 @@ public class MainActivity extends Activity implements ServiceConnection{
                 }
             }
         });
+        recordingControl.setChecked(true);
         status = (TextView) findViewById(R.id.status);
         noteInput = (EditText) findViewById(R.id.note_input);
         noteSubmit = (Button) findViewById(R.id.note_submit);

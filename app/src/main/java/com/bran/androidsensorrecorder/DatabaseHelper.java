@@ -1,4 +1,4 @@
-package com.bran.restroomdetection;
+package com.bran.androidsensorrecorder;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

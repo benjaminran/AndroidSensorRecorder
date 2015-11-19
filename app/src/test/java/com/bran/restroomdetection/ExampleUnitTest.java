@@ -1,4 +1,4 @@
-package com.bran.restroomdetection;
+package com.bran.androidsensorrecorder;
 
 import org.junit.Test;
 
