@@ -1,5 +1,5 @@
 ## Data
-#### Initial data analysis
+##### Initial data analysis
 
 Use get-stats.sh to get a directory containing stats on all the sensor data. Currently the testdata directory contains two databases for which info is available in the output directory.
 
