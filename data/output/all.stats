@@ -1,0 +1,159 @@
+========== output/br1.db.stats ==========
+---- Accelerometer ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 1;
+4848      
+-- average x, y, and z accelerations (m/sec^2)
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 1;
+6.37311762980133  0.104238766032332  7.39599227649544
+-- standard deviation of the x, y, and z accelerations
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 1;
+1.05230016622276  0.697379266997776  0.389031626766466
+---- Gyroscope ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 4;
+4847      
+-- average angular speed (rad/sec) b around the x, y, and z axes
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 4;
+-0.0187371270311257  -0.017097692402306  0.0108898400726023
+-- standard deviation angular speed (rad/sec) b around the x, y, and z axes
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 4;
+0.123534952533402  0.170840728918729  0.193428439726217
+---- Rotation Vector ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 11;
+4847      
+-- average x, y, and z components of the rotation vector
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 11;
+-0.126563249069774  -0.32132841388737  -0.334703348599311
+-- standard deviation of the x, y, and z components of the rotation vector
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 11;
+0.0539616184678487  0.063760405241223  0.12250465040722
+
+========== output/br2.db.stats ==========
+---- Accelerometer ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 1;
+9963      
+-- average x, y, and z accelerations (m/sec^2)
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 1;
+7.17969549629543  0.153970443192714  6.70463305463468
+-- standard deviation of the x, y, and z accelerations
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 1;
+0.273565204800677  0.302240531435482  0.292090604368235
+---- Gyroscope ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 4;
+9961      
+-- average angular speed (rad/sec) b around the x, y, and z axes
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 4;
+-0.0192815165778072  -0.0108358120981113  -0.00872439933058999
+-- standard deviation angular speed (rad/sec) b around the x, y, and z axes
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 4;
+0.044779564717094  0.0521776541842279  0.0417413063559655
+---- Rotation Vector ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 11;
+9961      
+-- average x, y, and z components of the rotation vector
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 11;
+-0.0610924451657282  -0.160497235988835  -0.121617856141991
+-- standard deviation of the x, y, and z components of the rotation vector
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 11;
+0.352310826606585  0.0934796437792601  0.797553916509101
+
+========== output/normal1.db.stats ==========
+---- Accelerometer ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 1;
+2455      
+-- average x, y, and z accelerations (m/sec^2)
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 1;
+-1.06656468192987  7.77247959785694  5.85281890871083
+-- standard deviation of the x, y, and z accelerations
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 1;
+0.767473035558918  0.525117460525162  0.778281836408978
+---- Gyroscope ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 4;
+2453      
+-- average angular speed (rad/sec) b around the x, y, and z axes
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 4;
+-0.0209027207303713  -0.00765867833988919  -0.00962820146183487
+-- standard deviation angular speed (rad/sec) b around the x, y, and z axes
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 4;
+0.180450520384695  0.231732998570128  0.0920523345280884
+---- Rotation Vector ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 11;
+2453      
+-- average x, y, and z components of the rotation vector
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 11;
+0.415465013579269  0.135856894896342  0.161862580540173
+-- standard deviation of the x, y, and z components of the rotation vector
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 11;
+0.0428194699699251  0.0598752858268897  0.0893759437078916
+
+========== output/walking-pocket.db.stats ==========
+---- Accelerometer ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 1;
+1882      
+-- average x, y, and z accelerations (m/sec^2)
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 1;
+-0.0877226213779841  -7.33082743469372  1.57178801032601
+-- standard deviation of the x, y, and z accelerations
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 1;
+3.07098645774688  5.55630338613929  3.85480812028747
+---- Gyroscope ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 4;
+1880      
+-- average angular speed (rad/sec) b around the x, y, and z axes
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 4;
+-0.040378480573913  -0.193899237406886  -0.0347689854331622
+-- standard deviation angular speed (rad/sec) b around the x, y, and z axes
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 4;
+0.955761234210085  1.07282333039072  0.478366566404083
+---- Rotation Vector ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 11;
+1880      
+-- average x, y, and z components of the rotation vector
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 11;
+-0.273307251091327  -0.143895176203892  0.183232078112683
+-- standard deviation of the x, y, and z components of the rotation vector
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 11;
+0.267333816824855  0.529982535897389  0.548948968534432
+
+========== output/walking-reading.db.stats ==========
+---- Accelerometer ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 1;
+3838      
+-- average x, y, and z accelerations (m/sec^2)
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 1;
+0.534866094240382  5.92802250695887  7.74500248517109
+-- standard deviation of the x, y, and z accelerations
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 1;
+0.804364715355757  0.935938510083251  1.0646311369967
+---- Gyroscope ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 4;
+3838      
+-- average angular speed (rad/sec) b around the x, y, and z axes
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 4;
+-0.0150139006056132  0.000505500904043215  0.00241918839438303
+-- standard deviation angular speed (rad/sec) b around the x, y, and z axes
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 4;
+0.242222250618092  0.388959785925504  0.388582362702425
+---- Rotation Vector ----
+-- sample count
+select count(*) from sensor_data where sensor_type = 11;
+3838      
+-- average x, y, and z components of the rotation vector
+select avg(value1), avg(value2), avg(value3) from sensor_data where sensor_type = 11;
+0.191271754906791  -0.155877519173229  -0.403755334979368
+-- standard deviation of the x, y, and z components of the rotation vector
+select stdev(value1), stdev(value2), stdev(value3) from sensor_data where sensor_type = 11;
+0.109753425537732  0.179442579243474  0.531729966948327
