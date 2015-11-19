@@ -1,6 +1,4 @@
 ========== output/br1.db.stats ==========
-.mode column
-.load ./libsqlitefunctions
 ---- Accelerometer ----
 -- sample count
 select count(*) from sensor_data where sensor_type = 1;

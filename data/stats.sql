@@ -1,8 +1,8 @@
 ---- SQL to extract some stats about the sensor data in a database
 -- setup
-.echo on
 .mode column
 .load ./libsqlitefunctions
+.echo on
 ---- Accelerometer ----
 -- sample count
 select count(*) from sensor_data where sensor_type = 1;
